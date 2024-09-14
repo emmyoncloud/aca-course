@@ -40,7 +40,7 @@ stages:
       displayName: Push image to Docker Hub
       inputs:
         containerRegistry: 'dockerhub-connection'
-        repository: $(IMAGE_NAME)
+        repository: '$(IMAGE_NAME)'
         command: 'push'
         tags: '$(TAG)'
 
