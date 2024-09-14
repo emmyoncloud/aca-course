@@ -15,7 +15,7 @@ variables:
   IMAGE_NAME: houssemdocker/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
-  RESOURCE_GROUP: rg-containerapps-azure-pipelines
+  RESOURCE_GROUP: cloud-shell-storage-westeurope
   TAG: '$(Build.BuildId)'
 
 stages:
